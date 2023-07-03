@@ -173,15 +173,21 @@
                 <input type="submit" value="Enviar" class="btn btn-lg btn-primary">
             </form>
             <div class="agradecimiento">
-                <?php
-                if (isset($_GET['enviado'])) {
-                    echo "<h3> ¡Muchas gracias por colaborar con el medio ambiente! </h3>";
-                }
-                ?> 
+                <h3 id="mensajeAgradecimiento"></h3>
             </div>
             <hr class="featurette-divider">
             <!-- /END THE FEATURETTES -->
+        <script>
+            const form = document.querySelector('.formulario');
+            const mensajeAgradecimiento = document.querySelector('#mensajeAgradecimiento');
 
+            form.addEventListener('submit', function (event) {
+            event.preventDefault(); // Evita que se envíe el formulario de forma tradicional
+
+            // Actualizar el mensaje de agradecimiento
+            mensajeAgradecimiento.textContent = '¡Muchas gracias por colaborar con el medio ambiente!';
+    });
+</script>
         </div><!-- /.container -->
 
         <!-- FOOTER -->
