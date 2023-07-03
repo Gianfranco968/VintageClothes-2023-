@@ -1,0 +1,46 @@
+.contacto_input {
+    display: block;
+    padding: 1%;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: #8fc0aa;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 1.5%;
+}
+.formulario {
+    margin: 5% 5% 2% 5%;
+}
+.btn.btn-lg.btn-primary {
+    margin-top: 3%;
+}
+.agradecimiento {
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .header_info {
+        padding-top:14% !important;
+    }
+    .display-3.fw-bold {
+        padding-bottom: 5%;
+    }
+    .agradecimiento {
+        padding-top: 5%; 
+    }
+    .formulario {
+        margin:10% 5% 5% 5%;
+    }
+    .btn.btn-lg.btn-primary {
+        margin-top: 10%;
+    }
+    .contacto_input {
+        display: block;
+        padding: 2%;
+        text-align: justify;
+        box-sizing: border-box;
+        background-color: #8fc0aa;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 3%;
+}
+}

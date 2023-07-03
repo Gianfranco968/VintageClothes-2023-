@@ -1,0 +1,141 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+.navbar-nav.me-auto.mb-2.mb-md-0 li {
+  margin-left: 4.5vw;
+}
+
+.logo {
+  width: 180px;
+  margin: 0px;
+  padding: 5px;
+}
+.mujeres_col {
+  border-radius: 100%;
+}
+.hombre_col {
+  border-radius: 100%;
+}
+.niños_col {
+  border-radius: 100%;
+}
+.header_info {
+  background-image: url(../img/nature.webp);
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.bd-placeholder_1-img {
+  background-image: url(../img/foto_1.webp);
+}
+
+.bd-placeholder_2-img {
+  background-image: url(../img/foto_2.webp);
+}
+
+.bd-placeholder_3-img {
+  background-image: url(../img/foto_3.png);
+}
+.deporte {
+  border-radius: 80px;
+}
+.urbana {
+  border-radius: 80px;
+}
+.formal {
+  border-radius: 80px;
+}
+.nav-item-right li a {
+  text-decoration: none;
+  padding-left: 4%;
+  color: #D9D9D9;
+}
+.nav-item-right {
+  width: 150px;
+  margin-top: 0.1rem;
+  list-style: none;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 2rem;
+  }
+}
+
+.bg-dark {
+  background-color: #D9D9D9;
+}
